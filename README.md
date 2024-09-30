@@ -31,3 +31,18 @@ $./mvnw spring-boot:run
 ### Integrasi Laporan Klaim API Endpoint
 
 - Daftar Klaim \
+GET http://localhost:8081/api/claims
+
+- Buat Klaim Baru \
+POST http://localhost:8081/api/claims
+```
+{
+    "lob": "KUR",
+    "penyebabKlaim": "Macet",
+    "periode": "2023-01-31",
+    "nilaiBebanKlaim": "10"
+}
+```
+
+![image](https://github.com/user-attachments/assets/5a6b57f5-1fc6-4fae-8fd3-c0d50fba01fb)
+
