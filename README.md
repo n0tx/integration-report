@@ -9,8 +9,6 @@
 - Lombok
 - Validation
 - H2DB
-- JUnit Test
-- Logger
 
 Aplikasi Integrasi Laporan Klaim adalah aplikasi penampunngan data berbasis Rest Api
 
